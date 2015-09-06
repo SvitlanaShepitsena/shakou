@@ -41,11 +41,11 @@ LocalAssistant.DEFAULTS = {
     entrypointExtnames: { '.js': true },
 
     // These are only used by the project assistant itself
-    chokidarIgnored: /[\/\\]\./,    
+    chokidarIgnored: /[\/\\]\./,
     fileOptions: { encoding: 'utf8' },
     folderBlacklist: { 'node_modules': true, '.git': true },
     livereloadOptions: {
-        port: 35729,
+        port: 35739,
         exts: ['html','css','js','png','gif','jpg','coffee','less','json'],
         applyJSLive: false,
         applyCSSLive: false,
@@ -404,6 +404,7 @@ LocalAssistant.prototype.localOnlyBootstrap = function(info) {
 
             if (info.watchAfterBuild !== 'no') {
                 var livereloadServer = Livereload.createServer(this.options.livereloadOptions);
+                console.log(this.options.livereloadOptions);
                 var server = Express();
 
                 var doRebuildEverythingOnChange = false;
