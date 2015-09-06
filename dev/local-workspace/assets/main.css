@@ -1,6 +1,6 @@
 /* container specific rules */
 html, body {
-    background: #444444;
+    background: #030708;
     font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
@@ -17,7 +17,6 @@ body.show-search #famous-framework-components-search {
 }
 
 #famous-framework-stage {
-    height: 100%;
     position: relative;
     -webkit-transition: opacity ease-in 0.3s;
     transition: opacity ease-in 0.3s;
