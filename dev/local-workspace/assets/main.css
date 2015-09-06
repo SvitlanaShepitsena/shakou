@@ -28,8 +28,9 @@ body.show-search #famous-framework-components-search {
 #iframe {
     display: block;
     width: 100%;
-    height: 100%;
-    overflow: scroll;
+    height: 47px;
+    min-height: 479px;
+    overflow: hidden;
 }
 
 #famous-framework-components-search {
