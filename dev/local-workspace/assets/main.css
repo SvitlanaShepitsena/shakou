@@ -3,6 +3,9 @@ html, body {
     /*background: #030708;*/
     font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
+a {
+    text-decoration: none;
+}
 
 body.show-navigation #famous-framework-stage {
     height: 90%;
