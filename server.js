@@ -8,8 +8,8 @@ var app = express();
 
 app.use(compression());
 
-app.use(express.static(__dirname + '/dev/local-workspace/build/svitlana~radio'));
+app.use(express.static(__dirname + '/dev/local-workspace/build/svitlana~shakou'));
 
-app.listen(process.env.PORT || 80, function () {
-	console.log('listening');
+app.listen(1618, function () {
+	console.log('listening at 1618');
 });

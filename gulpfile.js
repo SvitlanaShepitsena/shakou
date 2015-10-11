@@ -2,8 +2,8 @@
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 
-var dir='dev/local-workspace/build/svitlana~radio/';
-var dirCore='lib/core-components/svitlana/radio/';
+var dir='dev/local-workspace/build/svitlana~shakou/';
+var dirCore='lib/core-components/svitlana/shakou/';
 
 gulp.task('css', function() {
 	return gulp.src(dirCore+'**/*.css')
